@@ -1,4 +1,4 @@
-color trackColor;
+color trackColor, backgroundColor;
 PImage redCells;
 
 void setup() {
@@ -7,6 +7,7 @@ void setup() {
   
   // Start off tracking for red
   trackColor = color(255,0,0);
+  backgroundColor = color(255,0,0);
   smooth();
 }
 
